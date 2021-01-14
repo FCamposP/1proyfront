@@ -1,0 +1,25 @@
+<div class="row justify-content-center">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Login</h4>
+                <form [formGroup]="formulario" (ngSubmit)="login()">
+                    <div class="form-group">
+                      <label for="">Email</label>
+                      <input type="text" 
+                        class="form-control" id="email" aria-describedby="helpId" formControlName="email" placeholder="Introduzca su email">
+                      <!-- <small id="helpId" class="form-text text-muted">Help text</small> -->
+                    </div>
+                    <div class="form-group">
+                      <label for="">Password</label>
+                      <input type="password" autocomplete="off"
+                        class="form-control" formControlName="password" id="password" aria-describedby="helpId" placeholder="Password">
+                      <!-- <small id="helpId" class="form-text text-muted">Help text</small> -->
+                    </div>
+                    <button class="btn btn-outline-info btn-block" [disabled]="formulario.invalid " type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
