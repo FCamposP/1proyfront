@@ -1,0 +1,84 @@
+/*! CSS Used from: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.57/??page/home.css,source/pages/global.css */
+a,div,h3,img,li,span,ul{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+ul{list-style:none;}
+ul{list-style:disc;}
+li{margin-left:30px;display:list-item;}
+h3{margin-bottom:1em;}
+img{color:transparent;font-size:0;border:0;-ms-interpolation-mode:bicubic;}
+a img{border:none;}
+:focus{outline:0;}
+a{color:#06c;text-decoration:none;}
+a:hover{color:#f90;text-decoration:underline;}
+h3{font-weight:400;}
+h3{font-size:1.5em;line-height:1;}
+*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+img{vertical-align:middle;}
+.container{margin-right:auto;margin-left:auto;padding-left:0;padding-right:0;width:1200px;}
+@media \0screen{
+.container{width:1200px\9;}
+}
+.container:after,.container:before{content:" ";display:table;}
+.container:after{clear:both;}
+@media (max-width:1230px){
+.container{width:990px;padding:0 15px;}
+}
+.util-left{display:inline;}
+.util-left{float:left;}
+.util-clearfix:after{visibility:hidden;display:block;height:0;font-size:0;content:"\0020";clear:both;}
+.util-clearfix{zoom:1;}
+.iconfont{font-family:iconfont!important;font-size:20px;line-height:20px;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.icon-channel-flashdeals:before{content:"\e67c";}
+.container-radius{background:#fff;border-radius:8px;overflow:hidden;}
+.title-container{position:relative;padding:16px 16px 12px;overflow:hidden;}
+.title-container:hover .view-more{color:#ff4747;}
+.title-container .hot-zone{position:absolute;width:100%;height:100%;left:0;top:0;}
+.title-container .hot-zone:hover{text-decoration:none;}
+.title-container .title-info{display:flex;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;align-items:center;-webkit-align-items:center;box-align:center;-moz-box-align:center;-webkit-box-align:center;float:left;}
+.title-container .view-more{float:right;line-height:24px;}
+.title-info h3{color:#000;margin:0;padding:0 2px;line-height:20px;font-size:16px;font-weight:900;font-family:OpenSans,Open Sans,Arial,Helvetica,sans-serif,SimSun,宋体;}
+.view-more{color:#999;font-size:12px;white-space:nowrap;}
+.view-more:hover{color:#ff4747;font-size:12px;text-decoration:none;}
+.product-list{margin:0;}
+.product-list li{padding:0 6px;margin-left:0;list-style:none;}
+.product-list li a{position:relative;width:100%;display:block;height:100%;}
+.product-list .img-wrapper img{max-width:100%;}
+.product-list .img-wrapper{overflow:hidden;border-radius:4px;text-align:center;position:relative;}
+.product-item a:hover{text-decoration:none;}
+.product-item .img-wrapper:before{content:"";position:absolute;left:0;top:0;width:100%;height:100%;background:#000;z-index:1;opacity:.04;border-radius:4px;}
+.product-item:hover .img-wrapper:before{opacity:.08;}
+.product-list .pro-price{margin-top:8px;}
+.product-list .current-price{display:block;line-height:18px;color:#000;font-size:14px;font-weight:900;font-style:italic;font-family:OpenSans,Open Sans,Arial,Helvetica,sans-serif,SimSun,宋体;}
+@media (max-width:1230px){
+.container{padding:0;}
+}
+.container-radius:hover{box-shadow:0 1px 10px rgba(0,0,0,.12);}
+.flex{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;}
+.justify-center{-webkit-justify-content:center;justify-content:center;-moz-box-pack:center;-webkit--moz-box-pack:center;box-pack:center;}
+.align-items-center{align-items:center;-webkit-align-items:center;box-align:center;-moz-box-align:center;-webkit-box-align:center;}
+.flex-horizontal{-webkit-box-direction:normal;-webkit-box-orient:horizontal;-moz-flex-direction:row;-webkit-flex-direction:row;flex-direction:row;}
+.flex-horizontal{display:-ms-flexbox;display:-webkit-flex;display:flex;}
+.flex-wrap{-webkit-flex-wrap:wrap;-webkit-box-lines:multiple;-moz-flex-wrap:wrap;flex-wrap:wrap;}
+.flashdeals-entry{overflow:hidden;margin-top:16px;padding:0 8px 12px;}
+.flashdeals-entry .title-container{padding-left:8px;padding-right:8px;}
+.flashdeals-entry .title-container .iconfont{color:#fc5a2c;}
+.flashdeals-entry .product-list{list-style:none;margin:0;}
+.flashdeals-entry .product-item .img-wrapper{height:224.8px;max-width:224.8px;}
+.flashdeals-entry .product-item .img-wrapper img{width:100%;}
+.flashdeals-entry .product-list .product-item{width:20%;}
+.flashdeals-entry a:hover{text-decoration:none;}
+.flashdeals-entry .product-list .pro-price{display:flex;justify-content:space-between;align-items:center;}
+.flashdeals-entry .discount{float:right;font-size:12px;line-height:12px;padding:2px 10px;background:#ffecec;color:#ff4747;font-family:OpenSans-Semibold,Open Sans,Arial,Helvetica,sans-serif,SimSun,宋体;letter-spacing:0;text-align:center;}
+.flashdeals-entry .product-list .pro-remaining{font-size:0;margin-top:8px;}
+.flashdeals-entry .product-list .progress-box{display:inline-block;width:100%;height:8px;position:relative;border-radius:6px;overflow:hidden;background-color:#fafafa;}
+.flashdeals-entry .product-list .progress-inner{position:absolute;top:0;left:0;height:100%;border-radius:6px;background-image:linear-gradient(90deg,#ff866d 0,#fe282b);}
+.flashdeals-entry .product-list .pro-claimed{font-size:12px;color:#999;margin-top:4px;}
+.flashdeals-entry .product-list .img-wrapper:before{background:#795345;}
+@media (max-width:1230px){
+.flashdeals-entry .product-item .img-wrapper{height:182.8px;max-width:182.8px;}
+.flashdeals-entry .discount{padding:1px 4px;}
+}
+/*! CSS Used from: Embedded */
+.flashdeals-entry .product-list .pro-remaining{display:none;}
+/*! CSS Used fontfaces */
+@font-face{font-family:iconfont;src:url(//assets.alicdn.com/g/ae-fe/home-ui/0.0.57/assets/iconfont_833b4.eot);src:url(//assets.alicdn.com/g/ae-fe/home-ui/0.0.57/assets/iconfont_833b4.eot#iefix) format("embedded-opentype"),url(//assets.alicdn.com/g/ae-fe/home-ui/0.0.57/assets/iconfont_81048.woff) format("woff"),url(//assets.alicdn.com/g/ae-fe/home-ui/0.0.57/assets/iconfont_81048.woff) format("truetype");}
+@font-face{font-family:Open Sans;font-style:normal;font-weight:400;src:local("Open Sans"),url(//assets.alicdn.com/g/ae-fe/home-ui/0.0.57/assets/open-sans_24eff.eot#iefix) format("embedded-opentype"),url(//assets.alicdn.com/g/ae-fe/home-ui/0.0.57/assets/open-sans_24eff.eot),url(//assets.alicdn.com/g/ae-fe/home-ui/0.0.57/assets/open-sans_fa444.woff) format("woff"),url(//assets.alicdn.com/g/ae-fe/home-ui/0.0.57/assets/open-sans_54b51.ttf) format("truetype");}

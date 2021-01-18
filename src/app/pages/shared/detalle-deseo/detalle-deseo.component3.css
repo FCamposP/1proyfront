@@ -1,0 +1,47 @@
+
+
+.store-collection .shopping-cart-store .get-coupon-trigger{float:right;padding-bottom:5px;font-size:14px;color:#2e9cc3;letter-spacing:0;font-weight:600;cursor:pointer;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container{display:-ms-flexbox;display:flex;padding:10px 0 15px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-select{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;padding-right:10px;height:120px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-image{position:relative;display:-ms-flexbox;display:flex;width:120px;height:120px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-image a{position:relative;width:100%;height:100%;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-image a:before{content:"";position:absolute;left:0;top:0;width:100%;height:100%;background:#000;opacity:.04;border-radius:4px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-image img{max-width:120px;max-height:120px;border-radius:4px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main{-ms-flex:1 1;flex:1 1;padding-left:15px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-title{max-width:460px;font-size:14px;margin-bottom:5px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-title .product-name-link{word-break:break-all;color:#000;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-price{margin-top:8px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-price .cost-main{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-price .cost-main .main-cost-price{position:relative;font-size:16px;line-height:24px;font-weight:900;padding-right:8px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-price .cost-main .main-cost-price .sale-icon{position:relative;top:-1px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-price .cost-extend{margin-top:2px;line-height:18px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-price .cost-extend span{display:inline-block;margin-right:5px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-price .cost-extend .del{font-size:12px;color:#999;text-decoration:line-through;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-price .cost-extend .cost-tag{padding:0 5px;background:#fff1f1;border-radius:2px;color:#ff4747;font-weight:500;font-size:12px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-logistics{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-top:6px;line-height:18px;font-size:14px;-ms-flex-align:center;align-items:center;cursor:pointer;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-logistics span{display:inline-block;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-logistics .logistics-cost{margin-right:5px;color:#2e9cc3;font-weight:600;line-height:18px;font-size:12px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-logistics .logistics-company{margin-right:5px;font-size:12px;color:#2a2a2a;letter-spacing:0;line-height:18px;display:-ms-flexbox;display:flex;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-logistics .logistics-delivery-wrap{font-size:12px;color:#2a2a2a;letter-spacing:0;line-height:18px;display:-ms-flexbox;display:flex;margin-top:1px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-logistics .logistics-delivery-wrap .logistics-delivery{margin-right:5px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-logistics .logistics-delivery-wrap .icon-wrap{height:12px;display:inline-block;margin-top:-1px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-attr{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-opt .opt-group{margin-bottom:16px;text-align:right;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-opt .opt-group .opt-btn{margin-right:15px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-opt .opt-group .opt-btn:last-child{margin-right:0;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-opt .product-num{text-align:right;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-opt .product-num .product-num-picker{display:inline-block;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-opt .product-num .stock-tip{color:#ff7f01;font-size:12px;font-weight:600;line-height:16px;}
+.store-collection .shopping-cart-store .store-promotion-container{display:-ms-flexbox;display:flex;margin-top:8px;padding-top:8px;border-top:1px solid #f2f2f2;font-size:12px;}
+.store-collection .shopping-cart-store .store-promotion-container .promotion-label{color:#666;line-height:25px;}
+.store-collection .shopping-cart-store .buy-from-seller{margin-top:16px;text-align:right;}
+.store-collection .shopping-cart-store:last-child,.store-collection:last-child{margin-bottom:0;}
+@media only screen and (max-width:990px){
+.store-collection .shopping-cart-store .store-name .store-name-link{font-size:12px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-image{width:100px;height:100px;}
+.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-sku,.store-collection .shopping-cart-store .shopping-cart-product .product-container .product-field.product-main .product-title{font-size:10px;}
+}
+/*! CSS Used fontfaces */
+@font-face{font-family:NextIcon;src:url(https://assets.alicdn.com/g/ae-fe/static-ui/fusion-font/fusion-font.eot);src:url(https://assets.alicdn.com/g/ae-fe/static-ui/fusion-font/fusion-font.eot#iefix) format("embedded-opentype"),url(https://assets.alicdn.com/g/ae-fe/static-ui/fusion-font/fusion-font.woff) format("woff"),url(https://assets.alicdn.com/g/ae-fe/static-ui/fusion-font/fusion-font.ttf) format("truetype"),url(https://assets.alicdn.com/g/ae-fe/static-ui/fusion-font/fusion-font.svg#NextIcon) format("svg");}
+@font-face{font-family:NextIcon;src:url(https://g.alicdn.com/ae/common-ui/0.0.5/fusion-font/fusion-font.eot);src:url(https://g.alicdn.com/ae/common-ui/0.0.5/fusion-font/fusion-font.eot#iefix) format("embedded-opentype"),url(https://g.alicdn.com/ae/common-ui/0.0.5/fusion-font/fusion-font.woff) format("woff"),url(https://g.alicdn.com/ae/common-ui/0.0.5/fusion-font/fusion-font.ttf) format("truetype"),url(https://g.alicdn.com/ae/common-ui/0.0.5/fusion-font/fusion-font.svg#NextIcon) format("svg");}
+@font-face{font-family:NextIcon;src:url(https://assets.alicdn.com/g/ae-fe/static-ui/fusion-font/fusion-font.eot);src:url(https://assets.alicdn.com/g/ae-fe/static-ui/fusion-font/fusion-font.eot#iefix) format("embedded-opentype"),url(https://assets.alicdn.com/g/ae-fe/static-ui/fusion-font/fusion-font.woff) format("woff"),url(https://assets.alicdn.com/g/ae-fe/static-ui/fusion-font/fusion-font.ttf) format("truetype"),url(https://assets.alicdn.com/g/ae-fe/static-ui/fusion-font/fusion-font.svg#NextIcon) format("svg");}

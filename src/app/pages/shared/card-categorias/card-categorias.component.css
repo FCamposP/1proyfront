@@ -1,0 +1,97 @@
+/*! CSS Used from: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.57/??page/home.css,source/pages/global.css */
+a,div,h3,img,li,span,ul{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+ul{list-style:none;}
+ul{list-style:disc;}
+li{margin-left:30px;display:list-item;}
+h3{margin-bottom:1em;}
+img{color:transparent;font-size:0;border:0;-ms-interpolation-mode:bicubic;}
+a img{border:none;}
+:focus{outline:0;}
+a{color:#06c;text-decoration:none;}
+a:hover{color:#f90;text-decoration:underline;}
+h3{font-weight:400;}
+h3{font-size:1.5em;line-height:1;}
+*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+img{vertical-align:middle;}
+.container{margin-right:auto;margin-left:auto;padding-left:0;padding-right:0;width:1200px;}
+@media \0screen{
+.container{width:1200px\9;}
+}
+.container:after,.container:before{content:" ";display:table;}
+.container:after{clear:both;}
+@media (max-width:1230px){
+.container{width:990px;padding:0 15px;}
+}
+.util-clearfix:after{visibility:hidden;display:block;height:0;font-size:0;content:"\0020";clear:both;}
+.util-clearfix{zoom:1;}
+.iconfont{font-family:iconfont!important;font-size:20px;line-height:20px;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.icon-channel-newforyou:before{content:"\e67d";}
+.icon-channel--topselection:before{content:"\e67e";}
+.icon-high-opinion:before{content:"\e682";}
+.left-container{width:49.333%;float:left;}
+.right-container{width:49.333%;float:right;}
+.container-radius{background:#fff;border-radius:8px;overflow:hidden;}
+.title-container{position:relative;padding:16px 16px 12px;overflow:hidden;}
+.title-container:hover .view-more{color:#ff4747;}
+.title-container .hot-zone{position:absolute;width:100%;height:100%;left:0;top:0;}
+.title-container .hot-zone:hover{text-decoration:none;}
+.title-container .title-info{display:flex;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;align-items:center;-webkit-align-items:center;box-align:center;-moz-box-align:center;-webkit-box-align:center;float:left;}
+.title-container .view-more{float:right;line-height:24px;}
+.title-info h3{color:#000;margin:0;padding:0 2px;line-height:20px;font-size:16px;font-weight:900;font-family:OpenSans,Open Sans,Arial,Helvetica,sans-serif,SimSun,宋体;}
+.view-more{color:#999;font-size:12px;white-space:nowrap;}
+.view-more:hover{color:#ff4747;font-size:12px;text-decoration:none;}
+.product-list{margin:0;}
+.product-list li{padding:0 6px;margin-left:0;list-style:none;}
+.product-list li a{position:relative;width:100%;display:block;height:100%;}
+.product-list .img-wrapper img{max-width:100%;}
+.product-list .img-wrapper{overflow:hidden;border-radius:4px;text-align:center;position:relative;}
+.product-item a:hover{text-decoration:none;}
+.product-item .img-wrapper:before{content:"";position:absolute;left:0;top:0;width:100%;height:100%;background:#000;z-index:1;opacity:.04;border-radius:4px;}
+.product-item:hover .img-wrapper:before{opacity:.08;}
+.product-list .pro-price{margin-top:8px;}
+.product-list .current-price{display:block;line-height:18px;color:#000;font-size:14px;font-weight:900;font-style:italic;font-family:OpenSans,Open Sans,Arial,Helvetica,sans-serif,SimSun,宋体;}
+@media (max-width:1230px){
+.container{padding:0;}
+}
+.topselection-newforyou{margin-top:16px;}
+.container-radius:hover{box-shadow:0 1px 10px rgba(0,0,0,.12);}
+.justify-center{-webkit-justify-content:center;justify-content:center;-moz-box-pack:center;-webkit--moz-box-pack:center;box-pack:center;}
+.flex-horizontal{-webkit-box-direction:normal;-webkit-box-orient:horizontal;-moz-flex-direction:row;-webkit-flex-direction:row;flex-direction:row;}
+.flex-horizontal,.flex-vertical{display:-ms-flexbox;display:-webkit-flex;display:flex;}
+.flex-vertical{-webkit-box-orient:vertical;-webkit-box-direction:normal;-moz-box-orient:vertical;-moz-box-direction:normal;flex-direction:column;-webkit-flex-direction:column;}
+.flex-wrap{-webkit-flex-wrap:wrap;-webkit-box-lines:multiple;-moz-flex-wrap:wrap;flex-wrap:wrap;}
+/*! CSS Used from: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.57/general-4g9ZH~general-rtl-FnqfN.css */
+.top-selection .icon-color{color:#3fa6f5;}
+.top-selection .product-list .img-wrapper:before{background:#31557a;}
+.top-selection .product-list .product-item{width:25%;}
+.top-selection .product-list a:hover{text-decoration:none;}
+.top-selection .top-selection-slider{padding:0 10px 12px;}
+.top-selection .product-list-img{height:131px;}
+.top-selection .pro-price .current-price{font-weight:900;font-family:OpenSans,Open Sans,Arial,Helvetica,sans-serif,SimSun,宋体;}
+.top-selection .product-list .pro-note{margin-top:4px;}
+.top-selection .product-list .pro-note-wrapper{display:inline-block;background:-webkit-linear-gradient(left,#4dc0f6,#34a3fc);background:-o-linear-gradient(right,#4dc0f6,#34a3fc);background:-moz-linear-gradient(right,#4dc0f6,#34a3fc);background:linear-gradient(90deg,#4dc0f6,#34a3fc);-webkit-border-radius:9px;-moz-border-radius:9px;border-radius:9px;overflow:hidden;padding:0 6px;}
+.top-selection .product-list .pro-note-wrapper i{color:#fff;font-size:14px;width:14px;height:14px;line-height:18px;padding-left:1px;}
+.top-selection .product-list .eval-total-num{font-size:12px;color:#fff;font-family:OpenSans,Open Sans,Arial,Helvetica,sans-serif,SimSun,宋体;line-height:18px;}
+@media (max-width:1230px){
+.top-selection .product-list-img{height:144px;}
+.top-selection .product-list .product-item{width:33.33%;}
+.top-selection .product-item:last-child{display:none;}
+}
+.new-for-you .icon-color{color:#33c58c;}
+.new-for-you .product-list .img-wrapper:before{background:#2c653c;}
+.new-for-you .product-list .product-item{width:25%;}
+.new-for-you .product-list a:hover{text-decoration:none;}
+.new-for-you .new-for-you-slider{padding:0 10px 12px;}
+.new-for-you .product-list-img{height:131px;}
+.new-for-you .pro-price .current-price{font-weight:900;font-family:OpenSans,Open Sans,Arial,Helvetica,sans-serif,SimSun,宋体;}
+.new-for-you .product-list .pro-note{margin-top:4px;}
+.new-for-you .product-list .pro-note-wrapper{display:inline-block;background:-webkit-linear-gradient(left,#3ddd90,#2fc291);background:-o-linear-gradient(right,#3ddd90,#2fc291);background:-moz-linear-gradient(right,#3ddd90,#2fc291);background:linear-gradient(90deg,#3ddd90,#2fc291);-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:9px;padding:0 8px;overflow:hidden;line-height:18px;}
+.new-for-you .product-list .eval-total-num{font-size:12px;color:#fff;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;font-family:OpenSans,Open Sans,Arial,Helvetica,sans-serif,SimSun,宋体;}
+@media (max-width:1230px){
+.new-for-you .product-list-img{height:144px;}
+.new-for-you .product-list .product-item{width:33.33%;}
+.new-for-you .product-item:last-child{display:none;}
+}
+/*! CSS Used fontfaces */
+@font-face{font-family:iconfont;src:url(//assets.alicdn.com/g/ae-fe/home-ui/0.0.57/assets/iconfont_833b4.eot);src:url(//assets.alicdn.com/g/ae-fe/home-ui/0.0.57/assets/iconfont_833b4.eot#iefix) format("embedded-opentype"),url(//assets.alicdn.com/g/ae-fe/home-ui/0.0.57/assets/iconfont_81048.woff) format("woff"),url(//assets.alicdn.com/g/ae-fe/home-ui/0.0.57/assets/iconfont_81048.woff) format("truetype");}
+@font-face{font-family:Open Sans;font-style:normal;font-weight:400;src:local("Open Sans"),url(//assets.alicdn.com/g/ae-fe/home-ui/0.0.57/assets/open-sans_24eff.eot#iefix) format("embedded-opentype"),url(//assets.alicdn.com/g/ae-fe/home-ui/0.0.57/assets/open-sans_24eff.eot),url(//assets.alicdn.com/g/ae-fe/home-ui/0.0.57/assets/open-sans_fa444.woff) format("woff"),url(//assets.alicdn.com/g/ae-fe/home-ui/0.0.57/assets/open-sans_54b51.ttf) format("truetype");}

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import Echo from 'laravel-echo';
 import { environment } from 'src/environments/environment';
-import {IMessage, IUser} from '../interfaces/chat'
+import {IMessage, IUser} from '../../interfaces/chat'
 import { ChatService } from 'src/app/services/chat.service';
 import {scrollTo} from 'scroll-js';
 import { JsonpClientBackend } from '@angular/common/http';

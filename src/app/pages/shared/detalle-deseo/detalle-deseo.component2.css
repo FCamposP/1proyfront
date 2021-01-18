@@ -1,0 +1,25 @@
+
+.zoro-ui-number-picker.next-number-picker .next-btn{border-radius:50%!important;border:none;background:#f2f2f2;width:24px;height:24px;}
+.zoro-ui-number-picker.next-number-picker .next-btn:first-child{margin-right:0;}
+.zoro-ui-number-picker.next-number-picker .next-btn:last-child{margin-left:0;}
+.zoro-ui-number-picker.next-number-picker .next-btn .next-icon-add:before,.zoro-ui-number-picker.next-number-picker .next-btn .next-icon-minus:before{width:15px;font-size:15px;}
+.zoro-ui-number-picker.next-number-picker .next-input{border:none;}
+.zoro-ui-number-picker.next-number-picker .next-input input{padding:0;font-size:14px;}
+a:visited{color:#2e9cc3;}
+.zoro-ui-number-picker.next-number-picker .next-input input{color:#2e9cc3;}
+.next-btn.next-large{margin-bottom:6px;}
+.store-collection{margin-bottom:16px;}
+
+.store-collection .shopping-cart-store{position:relative;margin-bottom:20px;}
+
+
+.store-collection .shopping-cart-store .store-name{border-bottom:1px solid #f2f2f2;font-size:14px;line-height:21px;padding-bottom:10px;margin-bottom:5px;}
+
+.store-collection .shopping-cart-store .store-name .store-name-head{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;}
+.store-collection .shopping-cart-store .store-name .store-select{margin-right:12px;}
+
+.store-collection .shopping-cart-store .store-name .store-name-link{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;color:#000;}
+.store-collection .shopping-cart-store .store-name .promotion-platform{margin-top:10px;padding-left:30px;font-size:12px;}
+.store-collection .shopping-cart-store .store-contact{display:inline-block;margin-left:20px;font-size:12px;line-height:21px;}
+.store-collection .shopping-cart-store .store-contact a{color:#666;}
+.store-collection .shopping-cart-store .store-contact .contact-title{padding-left:5px;}
